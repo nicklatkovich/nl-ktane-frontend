@@ -1,0 +1,53 @@
+.mission-page {
+  text-align: center;
+
+  &>div {
+    margin: 8px;
+  }
+
+  & .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  & table {
+    margin: 16px auto;
+
+    & tbody {
+      & tr:nth-child(odd) {
+        background-color: #ffffff08;
+      }
+    }
+
+    & td {
+      padding: 4px;
+    }
+  }
+
+  & .columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+}
+
+.defuser {
+  background-color: #0000aa44;
+}
+
+.expert {
+  background-color: #ff000044;
+}
+
+.efmer {
+  background-color: #ff00ff44;
+}
+
+.soloer {
+  background-color: #22ffff44;
+}
+
+.first {
+  background-color: #ffff0044;
+}
